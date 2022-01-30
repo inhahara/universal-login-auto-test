@@ -27,7 +27,7 @@ public class LoginStepDefinitions {
     @After
     public void tearDown() {
         // Close browser after each Scenario
-        //driver.close();
+        driver.close();
     }
     
     @Given("I go to the {string} login page")
